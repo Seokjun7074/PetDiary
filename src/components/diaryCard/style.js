@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-const DiaryCardContainer = styled.div`
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+export const DiaryCardContainer = styled.div`
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 10px;
+  width: 40%;
+  height: 20vh;
+  background-color: blanchedalmond;
 `;

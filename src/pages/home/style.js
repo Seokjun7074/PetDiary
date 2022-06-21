@@ -9,6 +9,7 @@ export const HomeContainer = styled.div`
 export const HomeSection = styled.section`
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100%;
   background-color: tomato;

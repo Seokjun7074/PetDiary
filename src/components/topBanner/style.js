@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../../style/theme";
 
 export const MenuContainer = styled.div`
   width: 100%;
@@ -9,7 +10,8 @@ export const MenuContainer = styled.div`
 `;
 
 export const Tittle = styled.h1`
-  padding: 10px;
-  font-size: 2rem;
-  color: tomato;
+  padding: 1rem;
+  font-size: ${(props) => props.theme.fontSizes.title};
+  /* color: tomato; */
+  color: black;
 `;
