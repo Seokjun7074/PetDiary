@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const DiaryCardContainer = styled.div`
-  border: 1px solid grey;
+  border: 2px solid black;
   border-radius: 20px;
-  margin: 10px;
-  width: 40%;
+  margin: ${(props) => props.theme.margin.base};
+  width: 60%;
   height: 20vh;
-  background-color: blanchedalmond;
 `;
