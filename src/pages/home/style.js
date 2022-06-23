@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-  width: 100%;
+  position: absolute;
+  width: 800px;
   height: 100%;
-  /* background-color: grey; */
+  background-color: grey;
 `;
 
 export const HomeSection = styled.section`
@@ -12,6 +13,7 @@ export const HomeSection = styled.section`
   align-items: center;
   width: 100%;
   height: 100%;
+  background-color: khaki;
 `;
 
 export const Box = styled.div`
