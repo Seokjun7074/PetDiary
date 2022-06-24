@@ -10,14 +10,14 @@ export const HomeSection = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fit, 350px);
   place-content: center;
-  gap: 2rem;
+  gap: 10rem;
   /* flex-direction: column; */
 
   /* width: 850px; */
   width: 60%;
   min-width: 400px;
   height: 100%;
-  /* background-color: tomato; */
+  background-color: tomato;
 `;
 
 export const Box = styled.div`

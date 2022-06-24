@@ -10,7 +10,7 @@ function DiaryCard(props) {
   return (
     <DiaryCardContainer>
       {/* <DiaryImageContainer></DiaryImageContainer> */}
-      <DiaryImage src="https://a.fsdn.com/con/app/proj/testimages/screenshots/img_640x360_3x8bit_RGB_color_SMPTE_RP_219_2002.png/max/max/1" />
+      <DiaryImage src="https://mond-al.github.io/assets/images/forTest/ratio/all_ratio/image_21_1400x1050.png" />
       <DiaryContentContainer>
         <DiaryTittle>다이어리 제목</DiaryTittle>
         <DiaryContent>

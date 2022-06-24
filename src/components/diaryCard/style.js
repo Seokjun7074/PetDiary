@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const DiaryCardContainer = styled.article`
-  /* border: 1px solid black; */
+  /* font-size: 0px; */
   border-radius: 5px;
+
   box-shadow: 2px 4px 12px rgb(255 255 255 / 8%);
   overflow: hidden;
   width: 350px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   /* background-color: tomato; */
   box-shadow: 2px 4px 12px rgb(0 0 0 / 12%);
 `;
@@ -27,7 +28,7 @@ export const DiaryImage = styled.img`
 `;
 export const DiaryContentContainer = styled.div`
   padding: ${(props) => props.theme.padding.base};
-
+  background-color: white;
   height: 100%;
   /* background-color: pink; */
 `;

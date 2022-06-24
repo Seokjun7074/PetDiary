@@ -1,14 +1,14 @@
-import Calendar from "react-calendar";
-import "../../style/calendar.css";
+// import Calendar from "react-calendar";
+// import "../../style/calendar.css";
 import DiaryCard from "../../components/diaryCard";
 import TopBanner from "../../components/topBanner";
-import { HomeContainer, HomeSection, Box } from "./style";
+import { HomeContainer, HomeSection } from "./style";
 
-import { useState } from "react";
+// import { useState } from "react";
 
 function Home() {
-  const [date, setDate] = useState(new Date());
-  const [selectedDate, setSelectedDate] = useState(new Date());
+  // const [date, setDate] = useState(new Date());
+  // const [selectedDate, setSelectedDate] = useState(new Date());
   // console.log(selectedDate);
   return (
     <HomeContainer>
