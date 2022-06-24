@@ -4,18 +4,20 @@ const GlobalStyle = createGlobalStyle`
 * {
     margin: 0;
     padding: 0;  
+    box-sizing: border-box;
+
   }
   html {
     font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
     height: 100%;
     width: 100%;
     font-family: 'Noto Sans KR', 'Roboto', sans-serif;
+    
   }
   body {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    box-sizing: border-box;
     text-align: center;
     font-size: 1.6rem;
     

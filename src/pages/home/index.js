@@ -36,6 +36,9 @@ function Home() {
         <DiaryCard></DiaryCard>
         <DiaryCard></DiaryCard>
         <DiaryCard></DiaryCard>
+        <DiaryCard></DiaryCard>
+        <DiaryCard></DiaryCard>
+        <DiaryCard></DiaryCard>
       </HomeSection>
     </HomeContainer>
   );

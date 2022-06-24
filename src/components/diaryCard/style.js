@@ -3,18 +3,26 @@ import styled from "styled-components";
 export const DiaryCardContainer = styled.div`
   border: 2px solid black;
   border-radius: 10px;
-  margin: ${(props) => props.theme.margin.base};
-  padding: ${(props) => props.theme.padding.base};
-  width: 50vw;
-  height: 20%;
-  display: flex;
+  overflow: hidden;
+
+  margin-bottom: ${(props) => props.theme.margin.base};
+  /* padding: ${(props) => props.theme.padding.base}; */
+  width: 500px;
+  height: 100%;
 `;
 
 export const DiaryImageContainer = styled.div`
-  width: 20vh;
-  height: 20vh;
-  border: 2px solid black;
-  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+  /* display: inline-block; */
+`;
+export const DiaryContentContainer = styled(DiaryImageContainer)`
+  background-color: whitesmoke;
+`;
+
+export const DiaryImage = styled.img`
+  height: 100%;
 `;
 
 export const DiaryContent = styled.p`
