@@ -30,8 +30,12 @@ function Home() {
             prev2Label={null}
           ></Calendar>
         </Box> */}
-        <DiaryCard></DiaryCard>
-        <DiaryCard></DiaryCard>
+        <DiaryCard content={"hi"}></DiaryCard>
+        <DiaryCard
+          content={
+            "loremasdfasdfasdfffffffffsssssssssssloremasdfasdfasdfffffffffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssfffffffffffffloremasdfasdfasdfffffffffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssfffffffffffffsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssfffffffffffff"
+          }
+        ></DiaryCard>
         <DiaryCard></DiaryCard>
         <DiaryCard></DiaryCard>
         <DiaryCard></DiaryCard>

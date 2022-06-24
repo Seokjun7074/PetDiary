@@ -1,23 +1,20 @@
 import {
   DiaryCardContainer,
-  DiaryImageContainer,
   DiaryContent,
   DiaryContentContainer,
+  DiaryTittle,
   DiaryImage,
 } from "./style";
 
-function DiaryCard() {
+function DiaryCard(props) {
   return (
     <DiaryCardContainer>
-      <DiaryImageContainer>
-        <DiaryImage src="https://mond-al.github.io/assets/images/forTest/ratio/all_ratio/image_1_160x120.png" />
-      </DiaryImageContainer>
+      {/* <DiaryImageContainer></DiaryImageContainer> */}
+      <DiaryImage src="https://a.fsdn.com/con/app/proj/testimages/screenshots/img_640x360_3x8bit_RGB_color_SMPTE_RP_219_2002.png/max/max/1" />
       <DiaryContentContainer>
+        <DiaryTittle>다이어리 제목</DiaryTittle>
         <DiaryContent>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem, ab? Omnis, commodi sit. Culpa fuga, vitae officiis
-          expedita voluptatum reiciendis beatae, necessitatibus doloribus, aut
-          labore porro impedit ipsa facere incidunt?
+          {props.content ? props.content : `kkkkkkkkkkk`}
         </DiaryContent>
       </DiaryContentContainer>
     </DiaryCardContainer>

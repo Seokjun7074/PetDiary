@@ -11,7 +11,7 @@ export const MenuContainer = styled.div`
 
 export const Tittle = styled.h1`
   padding: 1rem;
-  font-size: ${(props) => props.theme.fontSizes.title};
+  font-size: ${(props) => props.theme.fontSizes.tittle};
   /* color: tomato; */
   color: black;
 `;
