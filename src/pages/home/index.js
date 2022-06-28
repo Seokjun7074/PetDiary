@@ -33,7 +33,7 @@ function Home() {
         <DiaryCard content={"hi"}></DiaryCard>
         <DiaryCard
           content={
-            "loremasdfasdfasdfffffffffsssssssssssloremasdfasdfasdfffffffffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssfffffffffffffloremasdfasdfasdfffffffffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssfffffffffffffsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssfffffffffffff"
+            "테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트"
           }
         ></DiaryCard>
         <DiaryCard></DiaryCard>

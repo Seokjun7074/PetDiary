@@ -17,7 +17,7 @@ export const HomeSection = styled.section`
   width: 60%;
   min-width: 400px;
   height: 100%;
-  background-color: tomato;
+  /* background-color: tomato; */
 `;
 
 export const Box = styled.div`
