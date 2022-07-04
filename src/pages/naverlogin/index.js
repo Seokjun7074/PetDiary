@@ -16,7 +16,7 @@ function NaverLogin() {
   // }, []);
   return (
     <div>
-      <h1>네이버 로그인 성공!!</h1>
+      <h1>네이버 로그인 성공한건가??</h1>
       {/* <div id="naverIdLogin" /> */}
     </div>
   );

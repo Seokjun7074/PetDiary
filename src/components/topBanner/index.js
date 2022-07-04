@@ -6,10 +6,10 @@ function TopBanner() {
   return (
     <MenuContainer>
       <Tittle>HEADER</Tittle>
-      <Link to="/naverlogin">
-        {/* <h5>NAVER</h5> */}
-        <LoginButton></LoginButton>
-      </Link>
+      <LoginButton></LoginButton>
+      {/* <Link to="/naverlogin">
+        <h5>NAVER</h5>
+      </Link> */}
     </MenuContainer>
   );
 }

@@ -1,5 +1,3 @@
-// import Calendar from "react-calendar";
-// import "../../style/calendar.css";
 import DiaryCard from "../../components/diaryCard";
 import TopBanner from "../../components/topBanner";
 import { HomeContainer, HomeSection } from "./style";
@@ -7,29 +5,22 @@ import { HomeContainer, HomeSection } from "./style";
 // import { useState } from "react";
 
 function Home() {
-  // const [date, setDate] = useState(new Date());
-  // const [selectedDate, setSelectedDate] = useState(new Date());
-  // console.log(selectedDate);
+  function getAccessToken() {
+    const location = window.location.href.split("=")[1];
+    const access_token = location.split("&")[0];
+
+    console.log(access_token);
+  }
+  if (window.location.href.includes("access_token")) {
+    console.log("Yes");
+    getAccessToken();
+  }
   return (
     <HomeContainer>
       {/* 상단 배너 */}
       <TopBanner></TopBanner>
       {/* 홈 화면의 내용들 */}
       <HomeSection>
-        {/* <Box>
-          <Calendar
-            locale="en-EN"
-            calendarType="Hebrew" //일요일부터 시작
-            onChange={setDate}
-            value={date}
-            minDetail="month" // 상단 네비게이션에서 '월' 단위만 보이게 설정
-            maxDetail="month" // 상단 네비게이션에서 '월' 단위만 보이게 설정
-            maxDate={new Date()}
-            navigationLabel={null}
-            next2Label={null}
-            prev2Label={null}
-          ></Calendar>
-        </Box> */}
         <DiaryCard content={"hi"}></DiaryCard>
         <DiaryCard
           content={
