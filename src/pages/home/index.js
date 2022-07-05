@@ -31,6 +31,16 @@ function Home() {
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum consequuntur in delectus veniam architecto voluptatem quisquam dolor harum, neque eaque, adipisci amet recusandae voluptatum temporibus tempore. Soluta, eius vitae?"
           }
         ></DiaryCard>
+        <DiaryCard
+          content={
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum consequuntur in delectus veniam architecto voluptatem quisquam dolor harum, neque eaque, adipisci amet recusandae voluptatum temporibus tempore. Soluta, eius vitae?"
+          }
+        ></DiaryCard>
+        <DiaryCard
+          content={
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum consequuntur in delectus veniam architecto voluptatem quisquam dolor harum, neque eaque, adipisci amet recusandae voluptatum temporibus tempore. Soluta, eius vitae?"
+          }
+        ></DiaryCard>
       </HomeSection>
     </HomeContainer>
   );

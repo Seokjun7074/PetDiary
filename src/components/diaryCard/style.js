@@ -6,7 +6,7 @@ export const DiaryCardContainer = styled.article`
   cursor: pointer;
   box-shadow: 2px 4px 12px rgb(255 255 255 / 8%);
   overflow: hidden;
-  width: 350px;
+  width: 300px;
   /* display: flex; */
   /* flex-direction: column; */
   /* background-color: tomato; */

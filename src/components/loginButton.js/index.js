@@ -9,7 +9,7 @@ const LoginButton = () => {
       clientId: process.env.REACT_APP_NAVER_CLIENT_ID,
       callbackUrl: process.env.REACT_APP_REDIRECT_URI,
       isPopup: false,
-      loginButton: { color: "green", type: 1, height: 20 },
+      loginButton: { color: "green", type: 1, height: 50 },
       callbackHandle: true,
     });
     login.init();
