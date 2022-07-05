@@ -8,7 +8,7 @@ export const HomeContainer = styled.div`
 export const HomeSection = styled.section`
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 350px);
+  grid-template-columns: repeat(auto-fit, 300px);
   place-content: center;
   gap: 10rem;
   /* flex-direction: column; */

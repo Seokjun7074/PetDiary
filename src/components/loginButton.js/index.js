@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { LoginButtonContainer } from "./style";
 
 const LoginButton = () => {
   //   console.log(process.env.REACT_APP_NAVER_CLIENT_ID);
@@ -16,11 +17,7 @@ const LoginButton = () => {
   useEffect(() => {
     naverLogin();
   }, []);
-  return (
-    <div>
-      <div id="naverIdLogin" />
-    </div>
-  );
+  return <LoginButtonContainer id="naverIdLogin" />;
 };
 
 export default LoginButton;

@@ -5,11 +5,8 @@ import { Tittle, MenuContainer } from "./style";
 function TopBanner() {
   return (
     <MenuContainer>
-      <Tittle>HEADER</Tittle>
+      <Tittle>오늘묘했개~?</Tittle>
       <LoginButton></LoginButton>
-      {/* <Link to="/naverlogin">
-        <h5>NAVER</h5>
-      </Link> */}
     </MenuContainer>
   );
 }

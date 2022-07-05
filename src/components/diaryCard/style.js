@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const DiaryCardContainer = styled.article`
   /* font-size: 0px; */
   border-radius: 5px;
-
+  cursor: pointer;
   box-shadow: 2px 4px 12px rgb(255 255 255 / 8%);
   overflow: hidden;
   width: 350px;
